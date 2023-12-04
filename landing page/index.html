@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap">
+  <title>Christmas Shopping</title>
+</head>
+<body>
+  <header>
+    <h1>🎄 Christmas Shopping 🎄</h1>
+    <nav>
+      <ul>
+        <li><a href="#featured">Featured Products</a></li>
+        <li><a href="#discounts">Special Discounts</a></li>
+        <li><a href="#countdown">Countdown</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="featured">
+    <h2>Featured Products</h2>
+    <div class="product">
+      <img src="C:\Users\TheAdiWeek\OneDrive\Desktop\intership\landing page\img\christmas-toys.jpg" alt="Winter Dolls">
+      <h3>Winter Dolls</h3>
+      <p>Spread holiday cheer with this delightful product!</p>
+      <button onclick="addToCart('Winter Dolls')">Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="C:\Users\TheAdiWeek\OneDrive\Desktop\intership\landing page\img\christmas_teddy_soft_toy_santa_hat_funny-1263567.jpg" alt="Teddy Bear">
+      <h3>Teddy Bear</h3>
+      <p>A perfect gift to make your loved ones smile.</p>
+      <button onclick="addToCart('Teddy Bear')">Add to Cart</button>
+    </div>
+  </section>
+
+  <section id="discounts">
+    <h2>Special Discounts</h2>
+    <div class="discount">
+      <h3>🎁 50% Off!</h3>
+      <p>Use code: XMAS50 at checkout</p>
+    </div>
+
+    <div class="discount">
+      <h3>🚚 Free Shipping</h3>
+      <p>Valid until December 20</p>
+    </div>
+  </section>
+
+  <section id="countdown">
+    <h2>Countdown to Christmas</h2>
+    <div id="countdown-timer"></div>
+  </section>
+
+  <section id="testimonials">
+    <h2>What Our Customers Say</h2>
+    <div class="testimonial">
+      <p>"Adorable products and super-fast delivery! Can't wait for Christmas!"</p>
+      <span>- Happy Shopper</span>
+    </div>
+
+    <div class="testimonial">
+      <p>"These gifts are so cute and festive. Highly recommended!"</p>
+      <span>- Festive Fan</span>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Christmas Shopping. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

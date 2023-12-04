@@ -1,0 +1,220 @@
+body {
+  font-family: 'Verdana', sans-serif; /* Changed Font */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #ffe5d9; /* Peach Background */
+  color: #333; /* Dark Text Color */
+}
+
+header {
+  background-color: #ffaa8e; /* Light Peach Header Background */
+  color: #000; /* Black Header Font Color */
+  padding: 20px;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  border-radius: 0 0 20px 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #000; /* Black Link Color */
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 10px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+a:hover {
+  color: #fff; /* White on Hover */
+  background-color: #ffaa8e; /* Light Peach on Hover */
+}
+
+section {
+  padding: 20px;
+}
+
+#featured .product {
+  margin-bottom: 30px;
+  background-color: #fff; /* White Product Background */
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+button {
+  background-color: #ffaa8e; /* Light Peach Button Background */
+  color: #000; /* Black Button Text Color */
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff9b78; /* Slightly Darker Peach on Hover */
+}
+
+#countdown-timer {
+  font-size: 24px;
+  color: #ffaa8e; /* Light Peach Timer Color */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+  background-color: #fff; /* White Form Background */
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #ffaa8e; /* Light Peach Form Label Color */
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ffaa8e; /* Light Peach Form Border Color */
+  border-radius: 10px;
+  color: #333; /* Dark Form Text Color */
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ffaa8e; /* Light Peach Button Background */
+  color: #000; /* Black Button Text Color */
+  text-decoration: none;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ff9b78; /* Slightly Darker Peach on Hover */
+}
+
+#discounts {
+  background-color: #ffaa8e; /* Light Peach Section Background */
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.discount-item {
+  margin-bottom: 20px;
+}
+
+.discount-item h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.discount-item p {
+  font-size: 16px;
+}
+
+#testimonials {
+  background-color: #fff; /* White Testimonials Section Background */
+  color: #333;
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial {
+  margin-bottom: 20px;
+}
+
+.testimonial p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+#contact {
+  background-color: #ffaa8e; /* Light Peach Contact Section Background */
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+  background-color: #fff; /* White Form Field Background */
+  color: #333;
+  border: 1px solid #ffaa8e; /* Light Peach Form Border Color */
+}
+
+.contact-form label {
+  color: #ffaa8e; /* Light Peach Form Label Color */
+}
+
+#cta {
+  background-color: #ffaa8e; /* Light Peach Call-to-Action Section Background */
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+  border-radius: 20px;
+}
+
+#cta h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+#cta p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+#cta .btn {
+  background-color: #fff; /* White Button Background */
+  color: #ffaa8e; /* Light Peach Button Text Color */
+}
+
+#cta .btn:hover {
+  background-color: #eee; /* Lighter White on Hover */
+  color: #333; /* Darker Peach on Hover */
+}
+
+footer {
+  background-color: #ffaa8e; /* Light Peach Footer Background */
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  border-radius: 20px 20px 0 0;
+}
